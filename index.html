@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Drum Kit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="key" id="key-a">A <br>
+            <span class="drum-type">CLAP</span>
+        </div>
+        <div class="key" id="key-s">S <br>
+            <span class="drum-type">HIHAT</span>
+        </div>
+        <div class="key" id="key-d">D <br>
+            <span class="drum-type">KICK</span>
+        </div>
+        <div class="key" id="key-f">F <br>
+            <span class="drum-type">OPENHAT</span>
+        </div>
+        <div class="key" id="key-g">G <br>
+            <span class="drum-type">BOOM</span>
+        </div>
+        <div class="key" id="key-h">H <br>
+            <span class="drum-type">RIDE</span>
+        </div>
+        <div class="key" id="key-j">J <br>
+            <span class="drum-type">SNARE</span>
+        </div>
+        <div class="key" id="key-k">K <br>
+            <span class="drum-type">TOM</span>
+        </div>
+        <div class="key" id="key-l">L <br>
+            <span class="drum-type">TINK</span>
+        </div>
+
+        <audio id="clap" controls>
+            <source src="sounds/clap.wav" type="audio/mpeg">
+        </audio>
+        <audio id="hithat" controls>
+            <source src="sounds/hihat.wav" type="audio/mpeg">
+        </audio>
+        <audio id="kick" controls>
+            <source src="sounds/kick.wav" type="audio/mpeg">
+        </audio>
+        <audio id="openhat" controls>
+            <source src="sounds/openhat.wav" type="audio/mpeg">
+        </audio>
+        <audio id="boom" controls>
+            <source src="sounds/boom.wav" type="audio/mpeg">
+        </audio>
+        <audio id="ride" controls>
+            <source src="sounds/ride.wav" type="audio/mpeg">
+        </audio>
+        <audio id="snare" controls>
+            <source src="sounds/snare.wav" type="audio/mpeg">
+        </audio>
+        <audio id="tom" controls>
+            <source src="sounds/tom.wav" type="audio/mpeg">
+        </audio>
+        <audio id="tink" controls>
+            <source src="sounds/tink.wav" type="audio/mpeg">
+        </audio>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
